@@ -1,0 +1,43 @@
+.search-bar {
+  box-sizing: border-box;
+  height: 106px;
+  padding: 34px 24px 28px 48px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar input {
+  flex: 1;
+  height: 48px;
+  border-radius: 24px;
+  outline: none;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  padding-left: 44px;
+  color: #999999;
+  font-family: 'e-Ukraine';
+  font-size: 14px;
+  line-height: 24px;
+  background-image: url(../../../assets/Search.svg);
+  background-repeat: no-repeat;
+  background-position: 5% 50%;
+}
+
+.filters-btn {
+  padding: 30px 5px 0;
+  font-family: 'e-Ukraine';
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 400;
+  background-image: url(../../../assets/burger-filter.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 22%;
+  color: var(--orange);
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}

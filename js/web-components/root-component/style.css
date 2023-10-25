@@ -1,0 +1,25 @@
+h1 {
+  font-family: 'Kharkiv';
+  font-weight: 100;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper > * {
+  box-sizing: border-box;
+}
+
+.side-bar {
+  width: 490px;
+}
+.side-navigation {
+  width: 60px;
+}
+
+.map {
+  flex: 1;
+}
